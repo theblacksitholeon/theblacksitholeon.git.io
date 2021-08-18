@@ -1,0 +1,48 @@
+@media (max-width: 866px){
+    #brand{font-size: 250%;}  
+    #logo{max-height: 80px;margin: 5px;} 
+}
+
+@media (max-width: 780px){
+    #brand{font-size: 200%;}  
+    #logo{max-height: 50px;margin: 5px;} 
+}
+
+@media (max-width: 730px){
+    #brand{font-size: 150%;}  
+    #logo{max-height: 50px;margin: 5px;}     
+    .services{flex-direction: column;}
+    #icons{flex-flow: wrap;}
+}
+
+@media (max-width: 730px){
+    header{grid-template-columns: [logo] 150px [brand] 2fr [i] 150px;} 
+    #audios > h1 {font-size:150% ;}
+}
+
+@media (max-width: 552px){
+    #brand{font-size: 100%;}  
+    #logo{max-height: 40px;margin: 5px;} 
+    header{grid-template-columns: [logo] 100px [brand] 2fr [i] 100px;}
+    a{padding: 0 10px;font-size: 80%; }
+    .contacts{font-size: 100%;}
+    #audios > h1 {font-size:110% ;}
+    main{flex-direction: column;}
+    #main_right{margin: 30px 0 0 0;}
+    #main_left{text-align: center;}
+}
+
+@media (max-width: 376px){
+    #brand{font-size: 100%;}  
+    #logo{max-height: 40px;margin: 5px;} 
+    header{grid-template-columns: [logo] 100px [brand] 2fr [i] 50px;}
+   
+}
+
+@media (max-width: 450px){
+    footer > p{font-size: 80%;}   
+}
+
+@media (max-width: 410px){
+    a{padding: 0 10px;font-size: 80%;}
+}

@@ -1,0 +1,55 @@
+.contacts{color: white;display: flex;flex-direction: column;
+         justify-content: center;align-items: center;flex-basis: content;
+         font-size: 150%;text-shadow: -5px 5px 2px black;}
+.contacts> p{background-color: black;}
+
+#scroll{background-color: rgb(12, 240, 240);
+        display: flex;}
+
+
+
+
+/*===========[SERVICES]===================*/
+i{display: flex;text-align: center;}
+
+#icons{display: flex; justify-content: center;}
+
+#icons > i {flex: 0 1 40%; }
+
+
+#html{font-size:100% ;background-color: coral;}
+#css{font-size:100% ;background-color: crimson;}
+#js{font-size: 100%;background-color: blueviolet;}
+#php{font-size:100% ;background-color: aqua;}
+
+.services{color: white;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          text-shadow: 0px 0px 2px black;}
+
+#services_left  h1 {font-size: 180%;}
+
+#services_left{background-color: rgba(255, 255, 255, 0.143);
+               padding: 20px;font-size: 120%;text-indent: 15px;}
+
+
+
+#services_right{background-color:  rgba(255, 255, 255, 0.143);color: red;
+               padding: 20px;text-align: center;font-size: 100%;}
+
+.services > div {flex: 0 1 40%;}
+
+/*===========[MUSIC]===================*/
+#pic{max-width: 50%;position: absolute;z-index: -1;}
+
+
+#audios{background-color: rgba(0, 0, 0, 0.619);display: flex;flex-direction: column;flex-basis: 60%;color: magenta;align-items: center;}
+
+#audios > h1 {color: white;margin: 10px 0 0 0;}
+
+audio{width: 60%;box-shadow: 0 0 2px white;}
+
+hr{padding:  5px 0;
+   background-image: linear-gradient(rgb(0, 49, 79), white);
+    width: 10%;}
